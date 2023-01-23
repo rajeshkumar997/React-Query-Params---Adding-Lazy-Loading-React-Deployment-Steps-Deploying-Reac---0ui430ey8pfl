@@ -8,10 +8,10 @@ const App = () => {
   const name = queryParams.get("name")
   const designation = queryParams.get("designation")
   
-  return(
+  return (
     <div className="App">
       <div className="details">
-        <P>Employee {id} named {name} works as {designation}</p>
+        <p>Employee {id} named {name} works as {designation}</p>
       </div>
     </div>
   )
